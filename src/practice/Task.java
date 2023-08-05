@@ -18,7 +18,7 @@ public class Task implements Comparable<Task> {
 
     public String gettask() {
         DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy年M月d日");
-        return date.format(f) + ":" + task;
+        return date.format(f) + " " + task;
     }
 
 }
