@@ -18,7 +18,7 @@ public class Chapter5 {
         Collections.sort(tasks);
 
         for (Task task : tasks) {
-            System.out.println(task);
+            System.out.println(task.gettask());
         }
     }
 }
