@@ -11,11 +11,13 @@ public class Task implements Comparable<Task> {
         this.task = task;
     }
 
+    @Override
     public int compareTo(Task other) {
         return date.compareTo(other.date);
     }
 
-    public String gettask() {
+
+    public String getTask() {
         return date + ":" + task;
     }
 

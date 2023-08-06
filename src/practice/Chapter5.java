@@ -17,8 +17,12 @@ public class Chapter5 {
 
         Collections.sort(tasks);
 
+        System.out.println("【未完了のタスクの個数は3");
+        
+        System.out.println("【未完了のタスクを昇順に並び替えて一覧表示】");        
+        
         for (Task task : tasks) {
-            System.out.println(task.gettask());
+            System.out.println(task.getTask());
         }
     }
 }
